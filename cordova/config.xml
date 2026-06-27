@@ -18,7 +18,9 @@
         <preference name="StatusBarOverlaysWebView" value="false"/>
         <preference name="android-minSdkVersion" value="22"/>
 
-        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/cordova-splash-screen.png"/>
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/cordova-splash-icon.png"/>
+        <preference name="AndroidWindowSplashScreenBackground" value="#ffffff"/>
+        <preference name="AndroidWindowSplashScreenIconBackgroundColor" value="#ffffff"/>
         <preference name="AutoHideSplashScreen" value="true"/>
         <preference name="SplashScreenDelay" value="3000"/>
 
@@ -76,4 +78,5 @@
     <preference name="Allow3DTouchLinkPreview" value="false"/>
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine"/>
     <preference name="AllowInlineMediaPlayback" value="true"/>
+    <hook type="after_prepare" src="hooks/fix-android-splash.js"/>
 </widget>
