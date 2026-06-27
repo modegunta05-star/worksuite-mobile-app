@@ -1,10 +1,10 @@
 {
-  "cwd": "/Volumes/Data/Htdocs/worksuite-mobile-app-v8",
+  "cwd": "D:\\Zipnom\\projects\\worksuite-mobile",
   "type": [
     "pwa",
     "cordova"
   ],
-  "name": "Worksuite",
+  "name": "MODEGUNTA OFFICE SOFTWARE",
   "framework": "vue",
   "template": "single-view",
   "bundler": "vite",
@@ -16,7 +16,7 @@
     "iconFonts": true
   },
   "customBuild": false,
-  "pkg": "com.froiden.worksuite",
+  "pkg": "com.modegunta.officesoftware",
   "cordova": {
     "folder": "cordova",
     "platforms": [

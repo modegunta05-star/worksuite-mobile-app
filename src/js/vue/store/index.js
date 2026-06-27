@@ -2,6 +2,7 @@ import moment from 'moment';
 import {createStore} from 'vuex';
 import axiosHttp from "@/js/vue/boot/axiosHttp";
 import {f7} from "framework7-vue";
+import {API_URL, DOMAIN} from "@/js/vue/config";
 
 const COMPANY_STORAGE_KEY = 'crm_company';
 const TRANSLATIONS_STORAGE_KEY = 'crm_translations';
@@ -13,8 +14,8 @@ let API_URL_STORAGE_KEY = 'crm_api_key';
 let DOMAIN_STORAGE_KEY = 'crm_domain_key';
 
 const state = {
-    api_url: window.localStorage.getItem(API_URL_STORAGE_KEY) || null,
-    host: window.localStorage.getItem(DOMAIN_STORAGE_KEY) || null,
+    api_url: window.localStorage.getItem(API_URL_STORAGE_KEY) || API_URL,
+    host: window.localStorage.getItem(DOMAIN_STORAGE_KEY) || DOMAIN,
     company:
         JSON.parse(
             window.localStorage.getItem(COMPANY_STORAGE_KEY) !== 'undefined' ? window.localStorage.getItem(COMPANY_STORAGE_KEY) : null
@@ -37,7 +38,7 @@ const state = {
     token: window.localStorage.getItem(TOKEN_STORAGE_KEY) || null,
     expires: window.localStorage.getItem(EXPIRES_STORAGE_KEY) || null,
     error: null,
-    title: 'Worksuite',
+    title: 'MODEGUNTA OFFICE SOFTWARE',
     // Listen to changes to this variable in components and refresh data when it changes.
     // This is used to send signal when session token has been refreshed
     reload: 0,

@@ -50,7 +50,7 @@ export default {
         return {
             device: device,
             f7params: {
-                name: 'Worksuite', // App name
+                name: 'MODEGUNTA OFFICE SOFTWARE', // App name
                 theme: 'auto', // Automatic theme detection
                 pushState: true,
                 // App store

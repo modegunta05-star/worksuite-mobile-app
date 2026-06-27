@@ -1,8 +1,8 @@
 {
-  "name": "com.froiden.worksuite",
-  "displayName": "Worksuite Mobile App",
+  "name": "com.modegunta.officesoftware",
+  "displayName": "MODEGUNTA OFFICE SOFTWARE",
   "version": "2.0.3",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "MODEGUNTA OFFICE SOFTWARE - \"THE GENESIS\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Apache Cordova Team",
+  "author": "MODEGUNTA OFFICE SOFTWARE",
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-android": "^13.0.0",
