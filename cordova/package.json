@@ -1,0 +1,54 @@
+{
+  "name": "com.froiden.worksuite",
+  "displayName": "Worksuite Mobile App",
+  "version": "2.0.3",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^13.0.0",
+    "cordova-ios": "^7.1.0",
+    "cordova-plugin-camera": "^7.0.0",
+    "cordova-plugin-device": "^3.0.0",
+    "cordova-plugin-enable-cleartext-traffic": "^2.1.0",
+    "cordova-plugin-firebase-messaging": "^8.0.1",
+    "cordova-plugin-inappbrowser": "^4.0.0",
+    "cordova-plugin-keyboard": "^1.2.0",
+    "cordova-plugin-splashscreen": "^6.0.1",
+    "cordova-plugin-statusbar": "^4.0.0",
+    "cordova-plugin-whitelist": "1",
+    "cordova-support-android-plugin": "~2.0.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-keyboard": {},
+      "cordova-plugin-camera": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-appversion": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-enable-cleartext-traffic": {},
+      "cordova-plugin-firebase-messaging": {
+        "ANDROID_FIREBASE_BOM_VERSION": "32.5.0",
+        "IOS_FIREBASE_POD_VERSION": "10.17.0"
+      }
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "cordova-plugin-appversion": "^1.0.0",
+    "cordova-support-google-services": "1.3.2"
+  }
+}

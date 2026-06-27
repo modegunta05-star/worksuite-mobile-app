@@ -1,0 +1,208 @@
+:root {
+  --width-80: 80%;
+  --width-70: 70%;
+  --width-75: 75%;
+  --width-65: 65%;
+}
+
+/* iOS Cordova Tweak */
+.device-cordova.device-ios {
+  height: 100vh;
+}
+
+/* Your app custom styles here */
+
+#navbar-user .item-media img {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+}
+
+.user-img  {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.change-company-button {
+  margin-top: 55px;
+  color: black;
+  font-weight: bold;
+  border: 0px none;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.item-media .f7-icons.side-menu-icon {
+  font-size: 18px;
+}
+
+.navbar-fixed.toolbar-fixed .page-content {
+  padding-top: 56px;
+}
+
+.android .badge {
+  font-size: 13px;
+  padding: 2px 6px;
+}
+
+.side-menu {
+  margin-top: 10px;
+}
+
+.navbar-fixed.toolbar-fixed .page-content {
+  padding-top: 43px;
+}
+
+.navbar-fixed .page>.searchbar~.page-content,
+.navbar-fixed>.searchbar~.page-content,
+.navbar-through .page>.searchbar~.page-content,
+.navbar-through>.searchbar~.page-content {
+  padding-top: 88px;
+}
+.navbar-fixed.toolbar-fixed .with-subnavbar .page-content {
+  padding-top: 86px;
+}
+
+/* Subdomain Input */
+#fauxInput {
+  display: inline-block;
+  text-indent: 10px;
+  min-width: 10px;
+  outline: none;
+  color: #ffffff;
+}
+
+.inputWrapper {
+  max-width: 250px;
+  margin: 10px 0;
+  cursor: text;
+  border-radius: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.domain {
+  display: inline-block;
+  color: #999;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0
+}
+
+#navbar-user .item-title {
+  margin-top: 2px;
+}
+
+#navbar-user.list ul{
+  background: transparent;
+}
+
+
+.error-block{
+  text-align: center;
+  color: red;
+}
+
+.list .item-content{
+  //padding-right: calc(var(--f7-list-item-padding-horizontal) + var(--f7-safe-area-right));
+}
+/*Input field margins left*/
+.ios .item-input-outline .item-content, .ios .item-input-outline.item-content{
+  margin: unset;
+}
+.search-list .card{
+  margin-left:0;
+  margin-right: 0;
+}
+
+form {
+  margin: 10px !important;
+}
+/* Calendar Page */
+#calendar,
+#calendar-events {
+  height: 50%;
+  box-sizing: border-box;
+}
+
+#calendar .calendar {
+  height: 100%;
+}
+
+#calendar-events ul {
+  height: 100%;
+  overflow: auto;
+}
+
+#calendar-events .event-color {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 8px;
+  height: 100%;
+}
+
+@media (orientation: landscape) {
+  #calendar {
+    float: left;
+  }
+
+  #calendar,
+  #calendar-events {
+    height: 100%;
+  }
+
+  #calendar,
+  #calendar-events {
+    width: 50%;
+  }
+
+  #calendar-events {
+    margin-left: 50% !important;
+    border-left: 1px solid #eee;
+  }
+
+  .dark #calendar-events {
+    border-left-color: #282828;
+  }
+}
+#selected {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.same-line{
+  display: flex; justify-content: space-between;
+}
+.w {
+  width: var(--width, 100%); /* Default width if needed */
+}
+
+.w-80 {
+  width: var(--width-80);
+}
+
+.w-70 {
+  width: var(--width-70);
+}
+
+.w-75 {
+  width: var(--width-75);
+}
+
+.w-65 {
+  width: var(--width-65);
+}
+.description img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
